@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "dgSpecHash": "/+25+mXTwrs=",
+  "success": true,
+  "projectFilePath": "/home/shadowomonarch/Documents/Versity/AlumNet.AspNetBackend/AlumNet.AspNetBackend.csproj",
+  "expectedPackageFiles": [
+    "/home/shadowomonarch/.nuget/packages/dnsclient/1.6.1/dnsclient.1.6.1.nupkg.sha512",
+    "/home/shadowomonarch/.nuget/packages/dotnetenv/3.2.0/dotnetenv.3.2.0.nupkg.sha512",
+    "/home/shadowomonarch/.nuget/packages/microsoft.aspnetcore.openapi/10.0.9/microsoft.aspnetcore.openapi.10.0.9.nupkg.sha512",
+    "/home/shadowomonarch/.nuget/packages/microsoft.extensions.configuration/1.1.2/microsoft.extensions.configuration.1.1.2.nupkg.sha512",
+    "/home/shadowomonarch/.nuget/packages/microsoft.extensions.configuration.abstractions/1.1.2/microsoft.extensions.configuration.abstractions.1.1.2.nupkg.sha512",
+    "/home/shadowomonarch/.nuget/packages/microsoft.extensions.logging.abstractions/2.0.0/microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
+    "/home/shadowomonarch/.nuget/packages/microsoft.extensions.primitives/1.1.1/microsoft.extensions.primitives.1.1.1.nupkg.sha512",
+    "/home/shadowomonarch/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/shadowomonarch/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512",
+    "/home/shadowomonarch/.nuget/packages/mongodb.bson/3.10.0/mongodb.bson.3.10.0.nupkg.sha512",
+    "/home/shadowomonarch/.nuget/packages/mongodb.driver/3.10.0/mongodb.driver.3.10.0.nupkg.sha512",
+    "/home/shadowomonarch/.nuget/packages/netstandard.library/1.6.1/netstandard.library.1.6.1.nupkg.sha512",
+    "/home/shadowomonarch/.nuget/packages/sharpcompress/0.48.1/sharpcompress.0.48.1.nupkg.sha512",
+    "/home/shadowomonarch/.nuget/packages/snappier/1.3.1/snappier.1.3.1.nupkg.sha512",
+    "/home/shadowomonarch/.nuget/packages/superpower/3.0.0/superpower.3.0.0.nupkg.sha512",
+    "/home/shadowomonarch/.nuget/packages/zstdsharp.port/0.7.3/zstdsharp.port.0.7.3.nupkg.sha512",
+    "/home/shadowomonarch/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.9/microsoft.aspnetcore.app.ref.10.0.9.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Microsoft.OpenApi' 2.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
+      "projectPath": "/home/shadowomonarch/Documents/Versity/AlumNet.AspNetBackend/AlumNet.AspNetBackend.csproj",
+      "warningLevel": 1,
+      "filePath": "/home/shadowomonarch/Documents/Versity/AlumNet.AspNetBackend/AlumNet.AspNetBackend.csproj",
+      "libraryId": "Microsoft.OpenApi",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}

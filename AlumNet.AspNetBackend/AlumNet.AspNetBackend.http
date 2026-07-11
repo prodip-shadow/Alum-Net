@@ -1,0 +1,6 @@
+@AlumNet.AspNetBackend_HostAddress = http://localhost:5133
+
+GET {{AlumNet.AspNetBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
