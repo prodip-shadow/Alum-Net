@@ -1,6 +1,48 @@
-@AlumNet.AspNetBackend_HostAddress = http://localhost:5133
+@baseUrl = http://localhost:5133
 
-GET {{AlumNet.AspNetBackend_HostAddress}}/weatherforecast/
-Accept: application/json
+### 1. GET ALL
+
+GET http://localhost:5133/api/v1/test
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2YTUxMjdmYTNhMzkzNTY0ZjY2NmZlMzAiLCJlbWFpbCI6InByb2RpcGhvcmUyMDA1QGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc4Mzc2MjMwOSwiZXhwIjoxNzgzNzY1OTA5fQ.Pvf4vl9rC1UeByFgwmAFhu6JTgcV0q-NK61id5X5xq0
 
 ###
+
+### 2. GET query value
+
+GET {{baseUrl}}/api/categories?searchValue=power
+
+###
+
+### 3. POST
+
+POST {{baseUrl}}/api/categories
+
+Content-Type: application/json
+{
+
+"Name": "electronics",
+
+"Description": "The world is not ready for this"
+
+}
+
+###
+
+### 4. PUT
+
+PUT {{baseUrl}}/api/categories/1
+
+Content-Type: application/json
+{
+
+"Name": "Premium Cloth",
+
+"Description": "Updated description for cloth category"
+
+}
+
+###
+
+### 5. DELETE
+
+DELETE {{baseUrl}}/api/categories/abaaf392-806b-48cf-8256-45d8540651cd

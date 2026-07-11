@@ -83,7 +83,9 @@ export const authOptions = {
     },
     async session({ session, token }) {
       if (token) {
+        session.userId = token.userId;
         session.role = token.role;
+        
         if (session.user) {
           session.user.name = token.name;
           session.user.email = token.email;
@@ -108,6 +110,7 @@ export const authOptions = {
         try {
           const dbUser = await dbConnect('users').findOne({ email: token.email });
           if (dbUser) {
+            token.userId = dbUser._id.toString();
             token.role = dbUser.role || 'user';
             token.name = dbUser.name || token.name;
             token.picture = dbUser.image || token.picture;

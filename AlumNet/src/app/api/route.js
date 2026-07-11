@@ -1,5 +1,5 @@
 export async function GET() {
-    return Response.json({
-        message:'Api Running'
-    })
+  return Response.json({
+    message: 'Api Running',
+  });
 }
